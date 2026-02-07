@@ -7,3 +7,4 @@ matplotlib
 plotly
 sqlalchemy
 seaborn
+mysql-connector-python
