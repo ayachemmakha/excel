@@ -29,7 +29,7 @@ st.set_page_config(
     page_title="TB Diagnostic Pro", 
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="🫁"
+    page_icon="🩺"
 )
 
 # =============================================================================
@@ -1249,3 +1249,4 @@ class AdvancedDataAnalyzer:
 
 if __name__ == "__main__":
     main()
+
