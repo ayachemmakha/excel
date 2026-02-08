@@ -20,15 +20,17 @@ from sklearn.metrics import classification_report, confusion_matrix
 import joblib
 import sqlite3
 import os
+
 warnings.filterwarnings('ignore')
 
 # =============================================================================
 # 🎨 CONFIGURATION AVANCÉE DU DESIGN
 # =============================================================================
 st.set_page_config(
-    page_title="TB Diagnostic Pro 🩺", 
+    page_title="TB Diagnostic Pro", 
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    page_icon="🫁"
 )
 
 # =============================================================================
@@ -1248,7 +1250,3 @@ class AdvancedDataAnalyzer:
 
 if __name__ == "__main__":
     main()
-
-
-
-
